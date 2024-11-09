@@ -8,7 +8,7 @@ function DashBoard() {
           <p className="font-bold text-2xl">Employee Dashboard</p>
         </div>
         <div>
-          <div className="grid grid-cols-3 gap-6 mt-5 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5 ">
             <div className="flex flex-col justify-between bg-white shadow-lg rounded-lg p-4  border-2 border-[#ccc]">
               <div className="flex items-center justify-between mb-4 border-b-2 border-[#ccc]">
                 <h3 className="font-semibold text-gray-700">Your Info</h3>

@@ -8,7 +8,7 @@ const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className=" p-4">
+    <div className=" p-1 sm:p-4">
       {/* Tabs Navigation */}
       <div className="flex space-x-4 bg-gray-100">
         {/* Dashboard Tab */}
